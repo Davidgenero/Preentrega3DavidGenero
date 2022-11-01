@@ -1,0 +1,95 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+@font-face {
+    font-family: colonna-mt-std;
+    src: url('../fonts/colonna-mt-std.otf');
+   }
+
+
+/* HEADER Y NAVBAR */
+.navImagenfondo{
+    background-image: url(../img/portada_facebook.png);
+    background-size: cover;    
+}
+
+header nav img{
+    margin: 20px;
+    height: 23%;
+    width: 23%;
+    opacity:0.8;
+    filter:alpha(opacity=40);
+}
+
+
+
+header nav ul li {
+   list-style: none;
+   color: red;
+   margin: 20px;
+   opacity:0.8;
+    filter:alpha(opacity=40);   
+}
+
+
+
+.miBoton{
+    color: red;
+    text-decoration: none;
+    background-color:  yellow;
+    font-size: 40px;
+    padding: 5px 10px;
+    border: 1px solid;
+    border-radius: 12px;
+    border-color: red;
+    font-family: 'colonna-mt-std'; 
+}
+
+
+ /* ANIMACIONES HOVER Y PUSH NAVBAR */
+ @keyframes hover {
+	50% {
+		transform: translateY(-3px);
+	}
+
+	100% {
+		transform: translateY(-6px);
+	}
+}
+.button-hover{
+    display: inline-block;
+	transition-duration: .75s;
+	transition-property: transform;
+    
+    
+}
+.button-hover:hover{
+    
+    transform: translateY(-6px);
+    animation-name: hover;
+    animation-duration: 1.5s;
+    animation-delay: defaultDuration;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    color: red;
+
+}
+
+@keyframes push {
+	50% {
+		transform: scale(.8);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+.button-hover:active {
+    animation-name: push;
+		animation-duration: defaultDuration;
+		animation-timing-function: linear;
+		animation-iteration-count: .2;
+} 
