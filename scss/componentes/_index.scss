@@ -1,21 +1,39 @@
 /* INDEX */
-.miCarrusel{
+ 
+.carousel-item{
+    height: 90vh;
     margin-top: 1%;
-    margin-bottom: 5%;
-    
- }
+    border-radius: 40px; 
+}
  
  
  /* Index Main */
+ .imgIndex1{
+    margin-top: 5%;
+    height: 30%;
+    width: 35%;
+    border-radius: 40px;
+ }
  
  p{
      font-family: 'colonna-mt-std'; 
      font-size: larger;
  }
  .textoIndex{
-     margin-top: 20%;
+     margin-top: 5%;
+ }
+ .imgIndex2{
+    margin-top: -5%;
+    margin-left: -0,5%;
+    height: 35%;
+    width: 40%;
+    border-radius: 40px;
  }
  .imgIndex3{
+     margin-top: -10%;
      margin-bottom: 5%;
-     margin-top: 5%;
+     margin-left: 7%;
+     height: 40%;
+     width: 40%;
+     border-radius: 40px;
  }
