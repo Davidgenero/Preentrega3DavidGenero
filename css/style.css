@@ -131,8 +131,6 @@ i {
 /* Index Main */
 .imgIndex1 {
   margin-top: 5%;
-  height: 30%;
-  width: 35%;
   border-radius: 40px;
 }
 
@@ -148,8 +146,6 @@ p {
 .imgIndex2 {
   margin-top: -5%;
   margin-left: 0, 5%;
-  height: 35%;
-  width: 40%;
   border-radius: 40px;
 }
 
@@ -164,8 +160,6 @@ p {
 
 /* Productos */
 .envasePeladas {
-  width: 35%;
-  height: 35%;
   margin: 2%;
   border-radius: 40px;
 }
@@ -176,29 +170,27 @@ p {
 }
 
 .imgTienda1 {
-  height: 80%;
-  width: 80%;
   margin-left: 15%;
   margin-top: 5%;
   border-radius: 40px;
 }
 
+.TextoImgTienda2 {
+  margin-left: 35%;
+}
+
 .imgTienda2 {
-  height: 80%;
-  width: 80%;
+  margin-left: 20%;
   border-radius: 40px;
 }
 
 .imgTienda3 {
-  height: 60%;
-  width: 80%;
   border-radius: 40px;
 }
 
 .imgTienda4 {
-  height: 80%;
-  width: 80%;
   border-radius: 40px;
+  margin-bottom: 10%;
 }
 
 .TextoImgTienda {
@@ -207,14 +199,19 @@ p {
 
 /* noticias */
 .img_mixTropical2 {
-  height: 80%;
-  width: 80%;
-  margin-top: 5%;
+  margin-top: 15%;
   border-radius: 40px;
+  margin-left: 10%;
 }
 
 .textoNoticias {
-  margin-bottom: 30%;
+  margin-top: 1%;
+  margin-bottom: 10%;
+}
+
+.logoContacto {
+  margin-left: 25%;
+  margin-top: 5%;
 }
 
 /*# sourceMappingURL=style.css.map */
