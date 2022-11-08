@@ -209,6 +209,14 @@ p {
   margin-bottom: 10%;
 }
 
+@media screen and (max-width: 1200px) {
+  .img_mixTropical1 {
+    visibility: hidden;
+  }
+  .img_mixTropical2 {
+    margin-right: 100%;
+  }
+}
 .logoContacto {
   margin-left: 25%;
   margin-top: 5%;
