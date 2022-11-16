@@ -91,6 +91,9 @@ header nav ul li {
 }
 
 @media (max-width: 768px) {
+  .logofooter {
+    width: 70%;
+  }
   .footerContainer {
     display: grid;
     grid-template-areas: "logofooter" "mapaFooter" "iconosfooter";
@@ -186,7 +189,7 @@ p {
 
 /* Productos */
 .envasePeladas {
-  margin: 2%;
+  margin: 20px 0px;
   border-radius: 40px;
 }
 
@@ -198,7 +201,7 @@ p {
 @media (max-width: 768px) {
   .containerTienda {
     display: grid;
-    grid-template-areas: "imgTienda1" "TextoImgTienda" "iconosfooter";
+    grid-template-areas: "imgTienda1" "TextoImgTienda1" "TextoImgTienda2" "imgTienda2";
   }
 }
 .imgTienda1 {
