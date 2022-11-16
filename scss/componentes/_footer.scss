@@ -6,6 +6,9 @@
 }
 
 @media (max-width: 768px) {
+    .logofooter{
+        width: 70% 
+    }
     .footerContainer{
         display: grid;
         grid-template-areas: 
