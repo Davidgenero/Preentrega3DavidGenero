@@ -1,6 +1,10 @@
 // grid contacto
 @media (max-width: 768px) {
     .containerContacto{
+        .logoContacto{
+            height: 50%;
+            width: 50%;
+        }
         display: grid;
         grid-template-areas: 
         'logoContacto1'
@@ -9,6 +13,7 @@
     
 }
 .logoContacto1{
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
