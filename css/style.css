@@ -85,6 +85,17 @@ header nav ul li {
   animation-iteration-count: 0.2;
 }
 
+.footerContainer {
+  display: grid;
+  grid-template-areas: "logofooter  mapaFooter iconosfooter ";
+}
+
+@media (max-width: 768px) {
+  .footerContainer {
+    display: grid;
+    grid-template-areas: "logofooter" "mapaFooter" "iconosfooter";
+  }
+}
 /* FOOTER*/
 * {
   padding: 0%;
@@ -97,16 +108,20 @@ header nav ul li {
 }
 
 .logofooter {
+  margin-top: 3%;
   height: 30%;
   width: 30%;
+}
+
+.mapaFooter {
+  margin-top: 3%;
 }
 
 /* iconos redes sociales */
 i {
   font-size: 60px;
-  margin: 10%;
+  margin: 7%;
   bottom: 50px;
-  right: 10px;
 }
 
 .fa-square-whatsapp {
@@ -121,6 +136,11 @@ i {
   color: blue;
 }
 
+@media (max-width: 768px) {
+  .textoIndex {
+    margin-bottom: 5%;
+  }
+}
 /* INDEX */
 .carousel-item {
   height: 90vh;
@@ -141,6 +161,12 @@ p {
 
 .textoIndex {
   margin-top: 5%;
+}
+
+.textoFondoBco {
+  font-family: "arial-rounded-mt-bold";
+  font-weight: bold;
+  font-style: italic;
 }
 
 .imgIndex2 {
@@ -169,6 +195,12 @@ p {
   border-radius: 40px;
 }
 
+@media (max-width: 768px) {
+  .containerTienda {
+    display: grid;
+    grid-template-areas: "imgTienda1" "TextoImgTienda" "iconosfooter";
+  }
+}
 .imgTienda1 {
   margin-left: 15%;
   margin-top: 5%;
@@ -197,29 +229,121 @@ p {
   margin-top: 30%;
 }
 
-/* noticias */
-.img_mixTropical2 {
-  margin-top: 15%;
+.containerNoticias {
+  display: flex;
+}
+.containerNoticias .img_mixTropical2 {
   border-radius: 40px;
+  margin-top: 5%;
   margin-left: 10%;
+}
+@media screen and (max-width: 768px) {
+  .containerNoticias .img_mixTropical1 {
+    display: none;
+  }
+  .containerNoticias .img_mixTropical2 {
+    margin-left: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
 }
 
 .textoNoticias {
-  margin-top: 1%;
-  margin-bottom: 10%;
+  display: flex;
+  width: 90vw;
+  justify-content: center;
+  margin-left: 5%;
 }
 
-@media screen and (max-width: 1200px) {
-  .img_mixTropical1 {
-    visibility: hidden;
-  }
-  .img_mixTropical2 {
-    margin-right: 100%;
+@media (max-width: 768px) {
+  .containerContacto {
+    display: grid;
+    grid-template-areas: "logoContacto1" "formContacto";
   }
 }
-.logoContacto {
-  margin-left: 25%;
-  margin-top: 5%;
+.logoContacto1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+form {
+  font-family: "colonna-mt-std";
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 1.8rem 0 1.8rem 1.8rem;
+  margin: 1rem auto;
+  max-width: 50%;
+  border: 2px solid black;
+}
+
+fieldset {
+  border: none;
+}
+
+fieldset div:last-child {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+legend {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-family: "colonna-mt-std";
+  font-weight: 300;
+  color: red;
+  text-transform: uppercase;
+}
+
+label {
+  color: red;
+  text-transform: uppercase;
+}
+
+input {
+  height: 30px;
+  margin: 0 0 10px 10px;
+  border: 1px solid black;
+  padding: 15px;
+  font-family: "colonna-mt-std";
+  font-size: 14px;
+  color: blue;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border: 1px solid green;
+}
+
+.btn-send {
+  padding: 0 50px;
+  border: red 2px solid;
+  color: red;
+  font-family: "colonna-mt-std";
+  text-transform: uppercase;
+  background-color: yellow;
+}
+
+.btn-send:hover {
+  background-color: red;
+  color: white;
+}
+
+svg {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+textarea {
+  resize: none;
+  margin-left: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

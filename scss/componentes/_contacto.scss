@@ -1,5 +1,85 @@
-.logoContacto{
-    margin-left: 25%;
-    margin-top: 5%;
- 
+// grid contacto
+@media (max-width: 768px) {
+    .containerContacto{
+        display: grid;
+        grid-template-areas: 
+        'logoContacto1'
+        'formContacto';
+    }
+    
 }
+.logoContacto1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+// FORMULARIO
+
+form{
+    font-family: 'colonna-mt-std';
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 1.8rem 0 1.8rem 1.8rem;
+    margin: 1rem auto;
+    max-width: 50%;
+    border: 2px solid black;
+}
+fieldset{
+    border: none;
+}
+fieldset div:last-child{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+legend{
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-family: 'colonna-mt-std';
+    font-weight: 300;
+    color: red;
+    text-transform: uppercase;
+}
+label{
+    color: red;
+    text-transform: uppercase;
+}
+input{
+    height: 30px;
+    margin: 0 0 10px 10px;
+    border: 1px solid black;
+    padding: 15px;
+    font-family: 'colonna-mt-std';
+    font-size: 14px;
+    color: blue;
+}
+input:focus, textarea:focus{
+    outline: none;
+    border: 1px solid green;
+}
+.btn-send{
+    padding: 0 50px;
+    border: red 2px solid;
+    color: red;
+    font-family: 'colonna-mt-std';
+    text-transform: uppercase;
+    background-color: yellow;
+}
+.btn-send:hover{
+    background-color: red;
+    color: white;
+}
+svg{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+textarea {
+    resize: none;
+    margin-left: 10px;
+  }

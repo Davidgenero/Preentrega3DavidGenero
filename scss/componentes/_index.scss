@@ -1,3 +1,9 @@
+// media query index
+@media (max-width: 768px) {
+    .textoIndex{
+        margin-bottom: 5%;
+}
+}
 /* INDEX */
  
 .carousel-item{
@@ -19,6 +25,11 @@
  }
  .textoIndex{
      margin-top: 5%;
+ }
+ .textoFondoBco{
+    font-family: 'arial-rounded-mt-bold';
+    font-weight: bold;
+    font-style: italic;
  }
  .imgIndex2{
     margin-top: -5%;
