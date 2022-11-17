@@ -14,23 +14,25 @@
     background-size: cover;    
 }
 
-header nav img{
+header nav{
+    img{
     margin: 20px;
     height: 23%;
     width: 23%;
     opacity:0.8;
     filter:alpha(opacity=40);
+    }
+    ul li {
+        list-style: none;
+        color: red;
+        margin: 20px;
+        opacity:0.8;
+         filter:alpha(opacity=40);   
+     }
 }
 
 
 
-header nav ul li {
-   list-style: none;
-   color: red;
-   margin: 20px;
-   opacity:0.8;
-    filter:alpha(opacity=40);   
-}
 
 
 

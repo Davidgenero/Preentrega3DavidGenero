@@ -1,10 +1,21 @@
 /* Productos */
 .envasePeladas{
+    
     margin: 20px 0px;
     border-radius: 40px;
 }
+.textprod1{
+    margin-top: 3%;
+}
+.textprod2{
+    margin-top: 3%;
+}
+.textprod3{
+    width: $mivw80;
+}
 
 .imgProductos3{
+    width: $mivw80;
     margin-bottom: 5%;
     border-radius: 40px;
 }
@@ -14,37 +25,48 @@
     grid-template-areas: 
     'TostYnueces MateYnueces'
     'txtmatyNueces txtmatyNueces';
-
+    
+     
+}
+.TostYnueces{
+    margin-left: 10%;    
+    border-radius: $radius2;
+}
+.MateYnueces{
+    border-radius: $radius1;
+}
+.txtmatyNueces{
+    @include txtFdoBco;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+@media (max-width: 768px) {
+    .containerTostMat{
+        display: grid;
+        grid-template-areas: 
+        'TostYnueces'
+        'MateYnueces'
+        'txtmatyNueces';  
+    }
+    .envasePeladas{
+        width: $mivw80;
+        margin-left: 10%;
+        border-radius: 40px;
+    }
+    .imgProductos3{
+        margin-left: 10%;
+    }
     .TostYnueces{
-        // margin-left: 30%;
-        border-radius: $radius2;
+        width: $mivw80;
+        height: 80vh;
+       margin-bottom: 5%;
     }
     .MateYnueces{
-        // margin-right: 50%;
-        border-radius: $radius1;
+        width: $mivw80;
+        margin-left: 10%;
     }
     .txtmatyNueces{
-        @include txtFdoBco;
-        margin-top: 5%;
-        margin-left: 30%;
-    }
-     @media (max-width: 768px) {
-        .containerTostMat{
-            display: grid;
-            grid-template-areas: 
-            'TostYnueces'
-            'MateYnueces'
-            'txtmatyNueces';  
-        }
-        .TostYnueces{
-           @include queryFormtImgTienda;
-           margin-bottom: 5%;
-        }
-        .MateYnueces{
-            @include queryFormtImgTienda
-        }
-        .txtmatyNueces{
-            @include txtFdoBco
-        }
+        width: $mivw80;
+
     }
 }

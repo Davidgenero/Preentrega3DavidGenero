@@ -5,35 +5,33 @@
     'imgT1  TextoImgTienda1 '
     'TextoImgTienda2 imgT2'
     'imgT3 TextoImgTienda3'
-    'TextoImgTienda4 imgT4';
-
-    // /* tienda */
-    .imgTienda1{
-        margin-left: 15%;
-        margin-top: 5%;
-        border-radius: $radius1; 
-    }
-    .imgTienda2{
-        margin-left: 30%;
-        border-radius: $radius1; 
-    }
-    .imgTienda3{
-        margin-left: 20%;
-        border-radius: $radius1; 
-    }
-    .imgTienda4{
-        border-radius: $radius1;
-        margin-bottom: 10%; 
-    }
-    
-    .TextoImgTienda{
-        margin-top: 30%;
-        margin-left: 20%;
-    }
+    'TextoImgTienda4 imgT4'; 
+}
+// /* tienda */
+.imgTienda1{
+    margin-left: 15%;
+    margin-top: 5%;
+    border-radius: $radius1; 
+}
+.imgTienda2{
+    margin-left: 30%;
+    border-radius: $radius1; 
+}
+.imgTienda3{
+    margin-left: 20%;
+    border-radius: $radius1; 
+}
+.imgTienda4{
+    border-radius: $radius1;
+    margin-bottom: 10%; 
 }
 
-    // media query tienda
-    @media (max-width: 768px) {
+.TextoImgTienda{
+    margin-top: 30%;
+    margin-left: 20%;
+}
+ // media query tienda
+ @media (max-width: 768px) {
         .containerTienda{
             display: grid;
             grid-template-areas: 
