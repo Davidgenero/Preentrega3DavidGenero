@@ -184,28 +184,25 @@ i {
 
 .containerIndCosecha {
   display: grid;
-  grid-template-areas: "nuezRueznoAbierto1 txtcosecha2" "txtcosecha4  nuecesMano3 " "nuecesCanasta5  txtcosecha6";
+  grid-template-areas: " nuezRueznoAbierto1 txtcosecha2 " "txtcosecha4  nuecesMano3 " "nuecesCanasta5  txtcosecha6";
 }
 .containerIndCosecha .nuezRueznoAbierto1 {
   margin-left: 30%;
   border-radius: 40px;
 }
 .containerIndCosecha .txtcosecha2 {
+  margin-right: 5%;
   font-family: "arial-rounded-mt-bold";
   font-weight: bold;
   font-style: italic;
   font-size: 22px;
 }
 .containerIndCosecha .nuecesMano3 {
-  margin-left: 5%;
-  border-radius: 40px;
-}
-.containerIndCosecha .nuecesMano3 {
-  margin-top: -50%;
   margin-left: 30%;
   border-radius: 40px;
 }
 .containerIndCosecha .txtcosecha4 {
+  margin-left: 20%;
   font-family: "arial-rounded-mt-bold";
   font-weight: bold;
   font-style: italic;
@@ -226,11 +223,43 @@ i {
     display: grid;
     grid-template-areas: "nuezRueznoAbierto1" "txtcosecha2" "nuecesMano3 " "txtcosecha4" "nuecesCanasta5" "txtcosecha6";
   }
-  .nuecesMano3 {
+  .nuezRueznoAbierto1 {
+    width: 80vw;
     border-radius: 40px;
   }
   .txtcosecha2 {
-    margin-top: 50%;
+    margin-left: 4%;
+    width: 80vw;
+    margin-top: -1%;
+    font-family: "arial-rounded-mt-bold";
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+  }
+  .nuecesMano3 {
+    width: 80vw;
+    margin-right: 10%;
+    border-radius: 40px;
+  }
+  .txtcosecha4 {
+    margin-left: 3%;
+    width: 80vw;
+    font-family: "arial-rounded-mt-bold";
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+  }
+  .nuecesCanasta5 {
+    width: 80vw;
+    margin-left: 11%;
+    border-radius: 40px;
+  }
+  .txtcosecha6 {
+    margin-left: 3%;
+    font-family: "arial-rounded-mt-bold";
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
   }
 }
 /* Productos */
