@@ -48,7 +48,7 @@
     'nuecesCanasta5  txtcosecha6';
    
     .nuezRueznoAbierto1{
-        margin-left: 30%;
+        margin-left: 10%;
         border-radius: $radius1;
     }
     .txtcosecha2{
@@ -56,18 +56,19 @@
         @include txtFdoBco
     }
     .nuecesMano3{
-        margin-left: 30%;
+        margin-left: 10%;
         border-radius: $radius1;
     }
     
     .txtcosecha4{
-        margin-left: 20%;
+        margin-left: 10%;
         @include txtFdoBco
     }
     .nuecesCanasta5{
         border-radius: $radius1;
     }
     .txtcosecha6{
+        margin-left: 10%;
         @include txtFdoBco
     }
 }
