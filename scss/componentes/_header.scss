@@ -35,16 +35,10 @@ header nav ul li {
 
 
 .miBoton{
-    color: red;
-    text-decoration: none;
-    background-color:  yellow;
-    font-size: 40px;
-    padding: 5px 10px;
-    border: 1px solid;
-    border-radius: 12px;
-    border-color: red;
-    font-family: 'colonna-mt-std'; 
+    @include btnNav
+ 
 }
+
 
 
  /* ANIMACIONES HOVER Y PUSH NAVBAR */

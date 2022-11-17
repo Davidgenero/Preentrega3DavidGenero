@@ -16,25 +16,19 @@
  /* Index Main */
  .imgIndex1{
     margin-top: 5%;
-    border-radius: 40px;
+    border-radius: $radius1;
  }
- 
- p{
-     font-family: 'colonna-mt-std'; 
-     font-size: larger;
- }
+
  .textoIndex{
      margin-top: 5%;
  }
  .textoFondoBco{
-    font-family: 'arial-rounded-mt-bold';
-    font-weight: bold;
-    font-style: italic;
+    @include txtFdoBco
  }
  .imgIndex2{
-    margin-top: -5%;
+    margin-top: 5%;
     margin-left: -0,5%;
-    border-radius: 40px;
+    border-radius: $radius1;
  }
  .imgIndex3{
      margin-top: -10%;
@@ -42,5 +36,61 @@
      margin-left: 7%;
      height: 40%;
      width: 40%;
-     border-radius: 40px;
+     border-radius: $radius1;
  }
+
+//  index section2
+.containerIndCosecha{
+    display: grid;
+    grid-template-areas: 
+    'nuezRueznoAbierto1 txtcosecha2'
+    'txtcosecha4  nuecesMano3 '
+    'nuecesCanasta5  txtcosecha6';
+   
+    .nuezRueznoAbierto1{
+     margin-left: 30%;
+     border-radius: $radius1;
+    }
+    .txtcosecha2{
+        @include txtFdoBco
+    }
+    .nuecesMano3{
+        margin-left: 5%;
+        border-radius: $radius1;
+    }
+    .nuecesMano3{
+        margin-top: -50%;
+        margin-left: 30%;
+        border-radius: $radius1;
+    }
+    .txtcosecha4{
+        @include txtFdoBco
+    }
+    .nuecesCanasta5{
+        border-radius: $radius1;
+    }
+    .txtcosecha6{
+        @include txtFdoBco
+    }
+   
+}
+
+@media (max-width: 768px) {
+    .containerIndCosecha{
+        display: grid;
+        grid-template-areas: 
+        'nuezRueznoAbierto1'
+        'txtcosecha2'
+        'nuecesMano3 '
+        'txtcosecha4'  
+        'nuecesCanasta5'
+        'txtcosecha6';
+    }    
+    .nuecesMano3{
+        
+        border-radius: $radius1;
+    }
+    .txtcosecha2{
+        margin-top: 50%;
+    }
+}

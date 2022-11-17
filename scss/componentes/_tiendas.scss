@@ -11,18 +11,18 @@
     .imgTienda1{
         margin-left: 15%;
         margin-top: 5%;
-        border-radius: 40px; 
+        border-radius: $radius1; 
     }
     .imgTienda2{
         margin-left: 30%;
-        border-radius: 40px; 
+        border-radius: $radius1; 
     }
     .imgTienda3{
         margin-left: 20%;
-        border-radius: 40px; 
+        border-radius: $radius1; 
     }
     .imgTienda4{
-        border-radius: 40px;
+        border-radius: $radius1;
         margin-bottom: 10%; 
     }
     
@@ -46,24 +46,19 @@
             'TextoImgTienda4' 
             'imgT4';
             .imgTienda1{
-                width: 90vw;
-                margin-left: 3%;
+                @include queryFormtImgTienda; 
                 margin-top: 5%;
-                border-radius: 40px; 
             }
             .imgTienda2{
-                width: 90vw;
-                margin-left: 3%;
-                border-radius: 40px; 
+                @include queryFormtImgTienda;
+                margin-bottom: 3%;
+       
             }
             .imgTienda3{
-                width: 90vw;
-                margin-left: 3%;
-                border-radius: 40px; 
+                @include queryFormtImgTienda;
             }
             .imgTienda4{
-                width: 90vw;
-                border-radius: 40px;
+                @include queryFormtImgTienda;
                 margin-bottom: 10%; 
             }
         }
