@@ -231,23 +231,23 @@ p {
     grid-template-areas: "imgT1" "TextoImgTienda1 " "imgT2" "TextoImgTienda2" "imgT3" "TextoImgTienda3" "TextoImgTienda4" "imgT4";
   }
   .containerTienda .imgTienda1 {
-    width: 100vw;
+    width: 90vw;
     margin-left: 3%;
     margin-top: 5%;
     border-radius: 40px;
   }
   .containerTienda .imgTienda2 {
-    width: 100vw;
+    width: 90vw;
     margin-left: 3%;
     border-radius: 40px;
   }
   .containerTienda .imgTienda3 {
-    width: 100vw;
+    width: 90vw;
     margin-left: 3%;
     border-radius: 40px;
   }
   .containerTienda .imgTienda4 {
-    width: 100vw;
+    width: 90vw;
     border-radius: 40px;
     margin-bottom: 10%;
   }
