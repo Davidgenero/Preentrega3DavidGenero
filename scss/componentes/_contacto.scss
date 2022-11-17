@@ -1,6 +1,4 @@
-.logoContacto{
-    width: 100vw;
-}
+
 .containerContacto{
     display: grid;
         grid-template-areas: 
@@ -11,6 +9,7 @@
 @media (max-width: 768px) {
     .containerContacto{
         .logoContacto{
+            width: 100vw;
             height: 50%;
             width: 50%;
         }

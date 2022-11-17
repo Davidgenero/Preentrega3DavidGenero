@@ -274,6 +274,48 @@ i {
   border-radius: 40px;
 }
 
+.containerTostMat {
+  display: grid;
+  grid-template-areas: "TostYnueces MateYnueces" "txtmatyNueces txtmatyNueces";
+}
+.containerTostMat .TostYnueces {
+  border-radius: 50px;
+}
+.containerTostMat .MateYnueces {
+  border-radius: 40px;
+}
+.containerTostMat .txtmatyNueces {
+  font-family: "arial-rounded-mt-bold";
+  font-weight: bold;
+  font-style: italic;
+  font-size: 22px;
+  margin-top: 5%;
+  margin-left: 30%;
+}
+@media (max-width: 768px) {
+  .containerTostMat .containerTostMat {
+    display: grid;
+    grid-template-areas: "TostYnueces" "MateYnueces" "txtmatyNueces";
+  }
+  .containerTostMat .TostYnueces {
+    width: 90vw;
+    margin-left: 5%;
+    border-radius: 40px;
+    margin-bottom: 5%;
+  }
+  .containerTostMat .MateYnueces {
+    width: 90vw;
+    margin-left: 5%;
+    border-radius: 40px;
+  }
+  .containerTostMat .txtmatyNueces {
+    font-family: "arial-rounded-mt-bold";
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+  }
+}
+
 .containerTienda {
   display: grid;
   grid-template-areas: "imgT1  TextoImgTienda1 " "TextoImgTienda2 imgT2" "imgT3 TextoImgTienda3" "TextoImgTienda4 imgT4";
@@ -358,10 +400,6 @@ i {
   margin-left: 5%;
 }
 
-.logoContacto {
-  width: 100vw;
-}
-
 .containerContacto {
   display: grid;
   grid-template-areas: "logoContacto1" "formContacto";
@@ -373,6 +411,7 @@ i {
     grid-template-areas: "logoContacto1" "formContacto";
   }
   .containerContacto .logoContacto {
+    width: 100vw;
     height: 50%;
     width: 50%;
   }
