@@ -39,6 +39,7 @@
     @include txtFdoBco;
     margin-top: 5%;
     margin-left: 5%;
+    display: flex;
 }
 @media (max-width: 768px) {
     .containerTostMat{
@@ -58,7 +59,6 @@
     }
     .TostYnueces{
         width: $mivw80;
-        height: 80vh;
        margin-bottom: 5%;
     }
     .MateYnueces{
@@ -66,7 +66,7 @@
         margin-left: 10%;
     }
     .txtmatyNueces{
-        width: $mivw80;
-
+       
+       text-align: center;
     }
 }

@@ -311,6 +311,7 @@ i {
   font-size: 22px;
   margin-top: 5%;
   margin-left: 5%;
+  display: flex;
 }
 
 @media (max-width: 768px) {
@@ -328,7 +329,6 @@ i {
   }
   .TostYnueces {
     width: 80vw;
-    height: 80vh;
     margin-bottom: 5%;
   }
   .MateYnueces {
@@ -336,7 +336,7 @@ i {
     margin-left: 10%;
   }
   .txtmatyNueces {
-    width: 80vw;
+    text-align: center;
   }
 }
 .containerTienda {
